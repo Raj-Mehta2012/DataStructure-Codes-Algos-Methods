@@ -1,9 +1,7 @@
 ***DS BinaryTree Traversal***
 
-// Java program for different tree traversals 
-  
-/* Class containing left and right child of current 
-   node and key value*/
+import java.util.*;
+
 class Node 
 { 
     int key; 
@@ -16,7 +14,7 @@ class Node
     } 
 } 
   
-class BinaryTree 
+public class BinaryTree 
 { 
     // Root of Binary Tree 
     Node root; 
@@ -76,9 +74,14 @@ class BinaryTree
     } 
   
     // Wrappers over above recursive functions 
-    void printPostorder()  {     printPostorder(root);  } 
-    void printInorder()    {     printInorder(root);   } 
-    void printPreorder()   {     printPreorder(root);  } 
+    void printPostorder()  
+    {     printPostorder(root);  } 
+    
+    void printInorder()   
+    {     printInorder(root);   } 
+    
+    void printPreorder()   
+    {     printPreorder(root);  } 
   
     // Driver method 
     public static void main(String[] args) 
