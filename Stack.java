@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class StArr 
 {
-
 	private int[] arr;
 	private int top;
 	private int size;
@@ -70,6 +69,7 @@ public class StArr
 			for(int i=top;i>=0;i--)
 				System.out.println(arr[i]);
 		}
+		
 	}
 	
 	public void push(int x)
